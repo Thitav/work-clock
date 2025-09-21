@@ -1,0 +1,5 @@
+Diagnostics:
+  UnusedIncludes: Strict
+  ClangTidy:
+    FastCheckFilter: None
+    Add: [bugprone-*, cert-*, performance-*, misc-const-correctness]
